@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Emoji Studio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎨 Emoji Studio</h1>
+        <p>Create your own custom emoji!</p>
+
+        <div class="emoji-container">
+
+            <div class="emoji">
+
+                <div class="eyes">
+                    <span>●</span>
+                    <span>●</span>
+                </div>
+
+                <div class="mouth">
+                    😊
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="controls">
+
+            <h2>Choose Your Mood</h2>
+
+            <button onclick="changeMood('happy')">
+                😊 Happy
+            </button>
+
+            <button onclick="changeMood('sad')">
+                😢 Sad
+            </button>
+
+            <button onclick="changeMood('angry')">
+                😡 Angry
+            </button>
+
+            <button onclick="changeMood('surprised')">
+                😮 Surprised
+            </button>
+
+        </div>
+
+        <button class="reset" onclick="resetEmoji()">
+            🔄 Reset
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
